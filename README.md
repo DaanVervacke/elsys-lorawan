@@ -71,6 +71,7 @@ With a pip installation, use `elsys-lorawan` directly in place of the
 from lorawan_connection.backend.tts import TTSConnection
 from elsys_lorawan import ElsysDeviceCollection
 
+
 async def list_sensors(endpoint: str, api_key: str, application: str) -> None:
     connection = TTSConnection(
         endpoint,
