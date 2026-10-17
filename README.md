@@ -1,4 +1,4 @@
-# ELSYS LoRaWAN
+# elsys-lorawan
 
 Read ELSYS sensors through ChirpStack or The Things Stack using
 [`lorawan-connection`](https://github.com/home-assistant-libs/lorawan-connection).
