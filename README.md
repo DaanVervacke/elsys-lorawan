@@ -10,22 +10,22 @@ as typed Python properties.
 
 ## Supported devices
 
-| Model          | TTS model id     | Typical measurements                                   |
-| -------------- | ---------------- | ------------------------------------------------------ |
-| ERS            | `ers`            | temperature, humidity, light, motion                    |
-| ERS Lite       | `ers-lite`       | temperature, humidity                                   |
-| ERS CO2        | `ers-co2`        | temperature, humidity, light, motion, co2               |
-| ERS CO2 Lite   | `ers-co2-lite`   | temperature, humidity, co2                             |
-| ERS VOC        | `ers-voc`        | temperature, humidity, light, motion, tvoc              |
-| ERS Sound      | `ers-sound`      | temperature, humidity, light, motion, sound             |
-| ERS Eye        | `ers-eye`        | temperature, humidity, light, motion, occupancy         |
-| ELT-2          | `elt-2`          | temperature, humidity, acceleration, external inputs     |
-| ELT Lite       | `elt-lite`       | temperature, humidity                                   |
-| ELT Ultrasonic | `elt-ultrasonic` | temperature, humidity, external distance              |
-| EMS            | `ems`            | temperature, humidity, motion, waterleak               |
-| EMS Door       | `ems-door`       | acceleration, pulse counts                              |
-| EMS Lite       | `ems-lite`       | temperature, humidity, waterleak                        |
-| EMS Desk       | `ems-desk`       | temperature, humidity, occupancy                        |
+| Model         | TTS model id   | Typical measurements                                   |
+| ------------- | -------------- | ------------------------------------------------------ |
+| ERS           | `ers`          | temperature, humidity, light, motion                    |
+| ERS Lite      | `ers-lite`     | temperature, humidity                                  |
+| ERS CO2       | `ers-co2`      | temperature, humidity, light, motion, co2               |
+| ERS CO2 Lite  | `ers-co2-lite` | temperature, humidity, co2                             |
+| ERS VOC       | `ers-voc`      | temperature, humidity, light, motion, tvoc              |
+| ERS Sound     | `ers-sound`    | temperature, humidity, light, motion, sound             |
+| ERS Eye       | `ers-eye`      | temperature, humidity, light, motion, occupancy         |
+| ELT-2         | `elt-2`        | temperature, humidity, acceleration, external inputs     |
+| ELT Lite      | `elt-lite`     | temperature, humidity                                  |
+| ELT Ultrasonic| `elt-ultrasonic` | temperature, humidity, external distance             |
+| EMS           | `ems`          | temperature, humidity, motion, waterleak               |
+| EMS Door      | `ems-door`     | acceleration, pulse counts                              |
+| EMS Lite      | `ems-lite`     | temperature, humidity, waterleak                        |
+| EMS Desk      | `ems-desk`     | temperature, humidity, occupancy                        |
 
 Models are discovered through their The Things Stack catalog identities
 (brand `elsys`). Every model decodes uplinks received on FPort 1.
